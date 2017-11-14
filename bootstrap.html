@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>My First Attribute Directive</h1>
+                <p class="pickHighlightColor">Pick a highlight color : </p>
+
+                <input type="radio" name="color" value="green" id="rdGreen" onclick="chooseClassToAdd(this);"> <label for="rdGreen" style="margin-right:20px">Green</label>
+
+                <input type="radio" name="color" value="yellow" id="rdYellow" onclick="chooseClassToAdd(this);"> <label for="rdYellow" style="margin-right:20px">Yellow</label>
+
+                <input type="radio" name="color" value="cyan" id="rdCyan" onclick="chooseClassToAdd(this);"> <label for="rdCyan" style="margin-right:20px">Cyan</label>
+
+                <p class="highlightMe">Highlight Me</p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
